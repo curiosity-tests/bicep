@@ -3,8 +3,6 @@ name: Run formatter
 # It will run an automated code formatter and commit and push the changes (if any). If the source branch is protected, then the workflow will create a new branch to commit and push the changes.
 
 on:
-  schedule:
-    - cron: '30 4 * * SUN'
   workflow_dispatch:
 
 jobs:
